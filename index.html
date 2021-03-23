@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="title">Number Converter</div>
+        <div class="calculation-block">
+            <div class="block">
+                <div>Decimal Number</div>
+                <div id="invalid-dec" style="font-weight: lighter"></div>
+                <input
+                    type="text"
+                    id="dec-input"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '');"
+                />
+                <button id="dec-button">Convert</button>
+            </div>
+            <div class="block">
+                <div>Binary</div>
+                <div>=</div>
+                <div id="dec-bin-result">_____</div>
+            </div>
+            <div class="block">
+                <div>Hexadecimal</div>
+                <div>=</div>
+                <div id="dec-hex-result">_____</div>
+            </div>
+        </div>
+
+        <div class="calculation-block">
+            <div class="block">
+                <div>Binary Number</div>
+                <div id="invalid-bin" style="font-weight: lighter"></div>
+                <input
+                    type="text"
+                    id="bin-input"
+                    oninput="this.value = this.value.replace(/[^0-1.]/g, '');"
+                />
+                <button id="bin-button">Convert</button>
+            </div>
+            <div class="block">
+                <div>Decimal</div>
+                <div>=</div>
+                <div id="bin-dec-result">_____</div>
+            </div>
+            <div class="block">
+                <div>Hexadecimal</div>
+                <div>=</div>
+                <div id="bin-hex-result">_____</div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js" type="text/javascript"></script>
+</html>

@@ -1,0 +1,78 @@
+* {
+    margin: 0.5em;
+    font-family: "Courier New", Geneva, Verdana, sans-serif;
+    padding: 0em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+body {
+    background-color: #04c2bd;
+    display: grid;
+    grid-template-rows: 2fr 10fr 10fr;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    margin: 2em 0.5em 0.5em 0.5em;
+}
+
+.title {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    padding-top: 0em;
+    /*-webkit-text-stroke: 1px #ffc759;*/
+    /*color: #ffc759;*/
+    font-size: 3.5em;
+}
+
+.calculation-block {
+    width: 50%;
+    display: grid;
+    grid-template-rows: 1.4fr 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    background-color: #08e4a9;
+    border-radius: 10%/15%;
+    padding: 0.5em 2em 2em 0.7em;
+}
+
+.block {
+    background-color: #ff7b9c;
+    border-radius: 5%/25%;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-width: 1em;
+    display: grid;
+    border-color: #ffc759;
+    border-width: 7px;
+    border-style: solid;
+    box-shadow: 1rem 1rem 1rem #818181;
+}
+
+.block > * {
+    align-items: center;
+    margin: auto;
+    position: relative;
+    padding: 0.5em;
+}
+
+button {
+    color: #333;
+    font-weight: lighter;
+    font-size: smaller;
+    border-radius: 5%/25%;
+    width: 20%;
+}
+
+input {
+    width: 50%;
+    border-radius: 5%/40%;
+    color: black;
+}
