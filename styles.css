@@ -77,7 +77,7 @@ input {
     color: black;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 540px) {
     .calculation-block {
         background-color: #04c2bd;
     }
