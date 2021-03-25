@@ -68,11 +68,17 @@ button {
     font-weight: lighter;
     font-size: smaller;
     border-radius: 5%/25%;
-    width: 20%;
+    width: auto;
 }
 
 input {
     width: 50%;
     border-radius: 5%/40%;
     color: black;
+}
+
+@media only screen and (max-width: 414px) {
+    .calculation-block {
+        background-color: #04c2bd;
+    }
 }
