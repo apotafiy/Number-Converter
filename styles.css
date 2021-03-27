@@ -1,6 +1,6 @@
 * {
     margin: 0.5em;
-    font-family: "Courier New", Geneva, Verdana, sans-serif;
+    font-family: "Press Start 2P", cursive;
     padding: 0em;
     color: white;
     font-weight: bold;
@@ -32,22 +32,22 @@ body {
 .calculation-block {
     width: 50%;
     display: grid;
-    grid-template-rows: 1.4fr 1fr 1fr;
+    grid-template-rows: 1.2fr 1fr 1fr;
     align-items: center;
     margin: auto;
     position: relative;
     margin-top: 0.5em;
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
     background-color: #08e4a9;
-    border-radius: 10%/15%;
-    padding: 0.5em 2em 2em 0.7em;
+    border-radius: 8%/10%;
+    padding: 1em 3em 1em 3em;
 }
 
 .block {
     background-color: #ff7b9c;
     border-radius: 5%/25%;
     padding: 0.5em;
-    margin: 0.5em;
+    margin: 1em 0.5em 1em 0.5em;
     border-width: 1em;
     display: grid;
     border-color: #ffc759;
@@ -69,6 +69,7 @@ button {
     font-size: smaller;
     border-radius: 5%/25%;
     width: auto;
+    margin-top: 10px !important;
 }
 
 input {
